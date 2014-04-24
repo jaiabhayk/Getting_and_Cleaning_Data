@@ -1,5 +1,7 @@
 #Getting and Cleaning Data Project
 
+#Files
+
 * run_analysis.R - Script to create tidy data set
 * CodeBook.md - Mark down file containing he dataset description
 * excluded_feature_names.txt - Text file containing the features name not included in the generated tidy dataset 
