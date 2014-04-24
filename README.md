@@ -1,6 +1,6 @@
 #Getting and Cleaning Data Project
 
-#Files
+##Files
 
 * run_analysis.R - Script to create tidy data set
 * CodeBook.md - Mark down file containing he dataset description
