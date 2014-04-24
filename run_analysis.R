@@ -1,4 +1,5 @@
-#This method takes input as the data directory name:- train and test. And returns the data table with the selected feature on on the mean and standard deviation (including the extra columns for activity id and subject id). 
+#This method takes input as the data directory name:- train and test. And returns the data table with the selected feature
+#on the mean and standard deviation (including the extra columns for activity id and subject id). 
 read.data <- function(data.directory.name) {
     no.of.rows = -1
     file.name <- file.path(data.directory.name, paste0("X_", data.directory.name, ".txt"))
@@ -9,7 +10,8 @@ read.data <- function(data.directory.name) {
     # names of subset columns required, selcted features containing mean and std
     selected.cols <- grep(".*mean\\(\\)|.*std\\(\\)", feature.names$FeatureName)
     # Required data features are containing mean and std in their names
-    # This is done early due to - a) It is an efficient memory utilization, b) It is difficult to select required columns (containing mean and std) after appending columns for ActivityId and SubjectId.
+    # This is done early due to - a) It is an efficient memory utilization, b) It is difficult to select 
+	#required columns (containing mean and std) after appending columns for ActivityId and SubjectId.
     data <- data[, selected.cols]
     
     #Read Subject Ids
