@@ -97,10 +97,10 @@ As part of the exercise for the assignment, it is required to extract only the m
 [61] "FrequencyDomainBodyAccMagMean"         
 [62] "FrequencyDomainBodyAccMagStd"          
 [63] "FrequencyDomainBodyBodyAccJerkMagMean" 
-[64] "FrequencyDomainBodyBodyAccJerkMagStd"  
+[64] "FrequencyDomainBodyBodyAccJerkMagStd" 
 [65] "FrequencyDomainBodyBodyGyroMagMean"    
 [66] "FrequencyDomainBodyBodyGyroMagStd"     
-[67] "FrequencyDomainBodyBodyGyroJerkMagMean"
+[67] "FrequencyDomainBodyBodyGyroJerkMagMean" 
 [68] "FrequencyDomainBodyBodyGyroJerkMagStd" 
 
 ##Summary of Choices and Data Set Transformation
