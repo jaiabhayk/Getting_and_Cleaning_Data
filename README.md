@@ -10,7 +10,7 @@
 
 * Download and unzip the data set ( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip )
 
-* Open R command line prompt or R Studio. Set the current working directory in R as the data main directory of the data(i.e, directory with the name "UCI HAR Dataset")
+* Open R command line prompt or R Studio. Set the current working directory in R as the data main directory of the data(i.e, directory with the name "UCI HAR Dataset", sample R command:- setwd("F:/personal/study/coursera/data_clean/testing/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset"))
 
 * Download the run_analysis.R and run it (You can use the command - source("complete_path_to_run_analysis.R")).
 
