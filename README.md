@@ -1,5 +1,11 @@
 #Getting and Cleaning Data Project
 
+* run_analysis.R - Script to create tidy data set
+* CodeBook.md - Mark down file containing he dataset description
+* excluded_feature_names.txt - Text file containing the features name not included in the generated tidy dataset 
+
+## Steps to run run_analysis.R
+
 * Download and unzip the data set ( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip )
 
 * Set the current working directory in R as the data main directory of the data(i.e, directory with the name "UCI HAR Dataset")
