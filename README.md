@@ -12,6 +12,6 @@
 
 * Open R command line prompt or R Studio. Set the current working directory in R as the data main directory of the data(i.e, directory with the name "UCI HAR Dataset")
 
-* Download the run_analysis.R and run it using the command source("<complete_path_to_run_analysis.R>")
+* Download the run_analysis.R and run it using the command source("complete_path_to_run_analysis.R")
 
 * The script will create a Tidy data set in the current working directory with the name tidy.txt.
